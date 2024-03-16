@@ -77,5 +77,9 @@ let myNameNew = "Prem"
 
 myNameNew = "Gokul"
 
-console.log(`Hello, ${myNameNew}!`)
+// console.log(`Hello, ${myNameNew}!`)
 
+const username = prompt('Enter your username: ')
+// console.log(username)
+
+alert(`Hello, ${username}!`)
