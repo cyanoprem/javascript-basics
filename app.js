@@ -110,7 +110,7 @@ let b = 3
 
 // Conditionals
 
-let weatherCondition = "Sunny"
+let weatherCondition = "Windy"
 let subCondition = "Too Hot"
 
 if (weatherCondition === "Cloudy") {
@@ -126,8 +126,14 @@ if (weatherCondition === "Cloudy") {
   }
 
 } else {
-    console.log("Don't take the umbrella")
+    // console.log("Don't take the umbrella")
 }
+
+// Ternary operator
+
+let result = 9 < 15
+
+result ? console.log("Result is True") : console.log("Result is False")
 
 
 
