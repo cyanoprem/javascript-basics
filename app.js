@@ -101,12 +101,37 @@ let b = 3
 // console.log(b)
 
 // Comparators
-console.log(3>4)
-console.log(3<4)
-console.log(3>=4)
-console.log(3>=3)
-console.log(3=='3')
-console.log(3==='3')
+// console.log(3>4)
+// console.log(3<4)
+// console.log(3>=4)
+// console.log(3>=3)
+// console.log(3=='3')
+// console.log(3==='3')
+
+// Conditionals
+
+let weatherCondition = "Sunny"
+let subCondition = "Too Hot"
+
+if (weatherCondition === "Cloudy") {
+  console.log("Take the umbrella")
+} else if (weatherCondition === "Rainy") {
+  console.log("Use the umbrella")
+} else if (weatherCondition === "Sunny") {
+
+  if (subCondition === "Too Hot") {
+    console.log("Use the umbrella")
+  } else {
+    console.log("Don't use the umbrella")
+  }
+
+} else {
+    console.log("Don't take the umbrella")
+}
+
+
+
+
 
 
 
