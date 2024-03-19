@@ -81,7 +81,23 @@ myNameNew = "Gokul"
 
 // Prompt & Alert
 
-const username = prompt('Enter your username: ')
+// const username = prompt('Enter your username: ')
 // console.log(username)
 
-alert(`Hello, ${username}!`)
+// alert(`Hello, ${username}!`)
+
+// Operators
+let a = 7
+let b = 3
+
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a%b)
+a++
+console.log(a)
+b--
+console.log(b)
+
+
