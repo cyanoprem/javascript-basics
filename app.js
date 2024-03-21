@@ -162,14 +162,50 @@ let a1 = 0
 let a2 = 'dfdff'
 
 if (a1 || a2) {
-  console.log('Hi')
+  // console.log('Hi')
 }
 
 let b1 = 56
 let b2 = 89
 
 if (b1 && b2) {
-  console.log('Hello')
+  // console.log('Hello')
+}
+
+
+// For loop
+
+for (let i = 0; i < 5; i++) {
+  // console.log(i)
+}
+
+// first iteration i = 0
+// i = 1
+// 2
+// 3
+// 4
+//  i = 5
+
+let arr1 = [45, 57, 63, 67, 56]
+
+// Print all the elements of the array
+
+for (let i = 0; i < arr1.length; i++) {
+  // console.log(arr1[i])
+}
+
+// 0 < [45, 57, 63, 67, 56]
+// 0 < 4 (arr.length)
+
+// While loop
+
+let rand = Math.random()
+console.log(rand) 
+
+while (rand > 0.5) {
+  console.log('rand is greater than 0.5')
+  rand = Math.random()
+  console.log(rand) 
 }
 
 

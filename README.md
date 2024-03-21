@@ -1,3 +1,3 @@
 git add .
-git commit -m "logical operators"
+git commit -m "loops"
 git push
