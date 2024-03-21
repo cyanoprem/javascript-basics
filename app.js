@@ -137,16 +137,24 @@ let result = 9 < 15
 
 // Task
 
-const age = prompt('Enter your age: ')
+// const age = prompt('Enter your age: ')
 
-if (age > 60) {
-  console.log('Senior Citizen')
-} else if (age < 18) {
-  console.log('Minor')
+// if (age > 60) {
+//   console.log('Senior Citizen')
+// } else if (age < 18) {
+//   console.log('Minor')
+// } else {
+//   console.log('Adult')
+// }
+
+// Js false values - false, 0, '', undefined, null, NaN
+let bool = 0
+
+if (bool) {
+  console.log('Bool is True')
 } else {
-  console.log('Adult')
+  console.log('Bool is False')
 }
-
 
 
 
