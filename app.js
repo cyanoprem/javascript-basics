@@ -133,9 +133,19 @@ if (weatherCondition === "Cloudy") {
 
 let result = 9 < 15
 
-result ? console.log("Result is True") : console.log("Result is False")
+// result ? console.log("Result is True") : console.log("Result is False")
 
+// Task
 
+const age = prompt('Enter your age: ')
+
+if (age > 60) {
+  console.log('Senior Citizen')
+} else if (age < 18) {
+  console.log('Minor')
+} else {
+  console.log('Adult')
+}
 
 
 

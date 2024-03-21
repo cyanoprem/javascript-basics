@@ -1,3 +1,3 @@
 git add .
-git commit -m "ternary operator"
+git commit -m "task"
 git push
