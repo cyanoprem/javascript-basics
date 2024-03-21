@@ -151,9 +151,25 @@ let result = 9 < 15
 let bool = 0
 
 if (bool) {
-  console.log('Bool is True')
+  // console.log('Bool is True')
 } else {
-  console.log('Bool is False')
+  // console.log('Bool is False')
+}
+
+// Logical operators
+
+let a1 = 0
+let a2 = 'dfdff'
+
+if (a1 || a2) {
+  console.log('Hi')
+}
+
+let b1 = 56
+let b2 = 89
+
+if (b1 && b2) {
+  console.log('Hello')
 }
 
 

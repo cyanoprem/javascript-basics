@@ -1,3 +1,3 @@
 git add .
-git commit -m "false values"
+git commit -m "logical operators"
 git push
