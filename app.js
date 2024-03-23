@@ -194,19 +194,25 @@ for (let i = 0; i < arr1.length; i++) {
   // console.log(arr1[i])
 }
 
-// 0 < [45, 57, 63, 67, 56]
-// 0 < 4 (arr.length)
+// i = 0; arr1.length = 5; arr1[0] = 45
+// i = 1; arr1[1] = 57 
+// i = 2; arr1[2] = 63
+// i = 3
+// i = 4; arr1[4] = 56
+// i = 5; 
 
-// While loop
 
-let rand = Math.random()
+// While loop - Dont know how many times you need to loop
+
+let rand = Math.random() // 0 < rand < 1
 console.log(rand) 
 
+// Executing while loop till the rand becomes < 0.5
 while (rand > 0.5) {
   console.log('rand is greater than 0.5')
-  rand = Math.random()
+  rand = Math.random() 
   console.log(rand) 
-}
+} 
 
 
 
