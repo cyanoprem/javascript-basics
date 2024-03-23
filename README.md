@@ -1,3 +1,3 @@
 git add .
-git commit -m "loops"
+git commit -m "function 1"
 git push

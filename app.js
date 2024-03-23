@@ -205,15 +205,39 @@ for (let i = 0; i < arr1.length; i++) {
 // While loop - Dont know how many times you need to loop
 
 let rand = Math.random() // 0 < rand < 1
-console.log(rand) 
+// console.log(rand) 
 
 // Executing while loop till the rand becomes < 0.5
 while (rand > 0.5) {
-  console.log('rand is greater than 0.5')
+  // console.log('rand is greater than 0.5')
   rand = Math.random() 
-  console.log(rand) 
+  // console.log(rand) 
 } 
 
+// let number = prompt('Enter number :') //3
+// console.log(number)
+
+// let factorial = 1
+// for (let i = 1; i <= number; i++) {
+//   factorial = factorial * i
+// }
+
+// console.log(factorial)
+// console log 1*2*3 = 6
+
+// i = 1; i <= 3; fact = 1
+// i = 2; i <= 3; fact = 2
+// i = 3; i <= 3; fact = 6
+// i = 4; X
+
+// Functions
+
+const printName = (name) => {
+  console.log(name)
+}
+
+printName("Gowtham")
+printName("Gowri")
 
 
 
