@@ -1,3 +1,3 @@
 git add .
-git commit -m "function 2"
+git commit -m "scope"
 git push
